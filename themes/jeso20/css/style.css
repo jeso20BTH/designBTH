@@ -6,8 +6,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -6458,6 +6456,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+/* metal-mania-regular - latin */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -7167,6 +7166,24 @@ input::-moz-focus-inner, button::-moz-focus-inner {
   padding: 0;
 }
 
+@font-face {
+  font-family: "Metal Mania";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../shared/fonts/metal-mania-v10-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../../shared/fonts/metal-mania-v10-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../shared/fonts/metal-mania-v10-latin-regular.woff2") format("woff2"), url("../../shared/fonts/metal-mania-v10-latin-regular.woff") format("woff"), url("../../shared/fonts/metal-mania-v10-latin-regular.ttf") format("truetype"), url("../../shared/fonts/metal-mania-v10-latin-regular.svg#Metal Mania") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "MedievalSharp";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../shared/fonts/medievalsharp-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../../shared/fonts/medievalsharp-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../shared/fonts/medievalsharp-v12-latin-regular.woff2") format("woff2"), url("../../shared/fonts/medievalsharp-v12-latin-regular.woff") format("woff"), url("../../shared/fonts/medievalsharp-v12-latin-regular.ttf") format("truetype"), url("../../shared/fonts/medievalsharp-v12-latin-regular.svg#MedievalSharp") format("svg");
+  /* Legacy iOS */
+}
 html {
   font-size: 16px;
 }

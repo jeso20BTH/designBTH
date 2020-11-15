@@ -5,3 +5,7 @@ $link-color-visited: lighten($link-color, 20%);
 $link-color-hover: darken($link-color, 20%);
 $text-color: lighten($link-color-visited, 20%);
 $header-footer-text-color: $link-color;
+$header-font-family: 'Metal Mania';
+$header-font-file: '../../shared/fonts/metal-mania-v10-latin-regular';
+$text-font-family: 'MedievalSharp';
+$text-font-file: '../../shared/fonts/medievalsharp-v12-latin-regular';
