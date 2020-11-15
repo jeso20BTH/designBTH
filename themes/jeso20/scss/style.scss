@@ -1,0 +1,17 @@
+@import '../../node_modules/normalize.css/normalize';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&&display=swap');
+@import '../../shared/scss/base';
+@import '../../jeso20old/css/style';
+@import 'variables';
+@import 'typography';
+@import 'header';
+@import 'layout';
+@import 'footer';

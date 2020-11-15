@@ -1,0 +1,7 @@
+$background-color: #000;
+$header-color: #282828;
+$link-color: #a12424;
+$link-color-visited: lighten($link-color, 20%);
+$link-color-hover: darken($link-color, 20%);
+$text-color: lighten($link-color-visited, 20%);
+$header-footer-text-color: $link-color;

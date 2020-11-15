@@ -1,0 +1,31 @@
+@import 'variables';
+
+.footer .container {
+    background: $header-color;
+    max-width: 100%;
+}
+
+.footer {
+    background: $header-color;
+    color: $header-footer-text-color;
+
+    a,
+    a:visited {
+        color: $link-color;
+    }
+
+    .footer a:hover {
+        color: $link-color-hover;
+    }
+
+    p {
+        margin: 0;
+        padding: 3em 2em;
+    }
+
+    .social {
+        float: right;
+        padding: 1.5em 2em 1.5em 1em;
+        font-size: 2rem;
+    }
+}
