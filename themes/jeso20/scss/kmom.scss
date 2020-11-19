@@ -1,0 +1,54 @@
+.reportpage {
+    display: grid;
+    grid-template-columns: auto 80%;
+    grid-gap: 2em;
+    padding: 0 2em;
+}
+
+.reportpage h1 {
+    grid-column: 2;
+    text-align: center;
+}
+
+.kmom-nav {
+    margin-top: 4em;
+    background-color: $header-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 3px solid $link-color;
+    padding: 1em;
+
+    a {
+        text-align: center;
+        margin: 0.2em;
+        padding: 1.2em 0.8em 0.2em;
+    }
+
+    a:visited {
+        color: $link-color;
+    }
+
+    a:hover {
+        color: $link-color-hover;
+    }
+
+    .active {
+        color: $link-color-visited !important;
+        border-bottom: 2px solid $link-color-visited;
+    }
+}
+
+@media (max-width: 767px) {
+    .reportpage {
+        grid-template-columns: auto;
+    }
+
+    .reportpage h1 {
+        grid-column: span 1;
+    }
+
+    .kmom-nav {
+        display: none;
+    }
+}

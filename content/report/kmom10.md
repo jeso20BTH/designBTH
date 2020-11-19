@@ -1,8 +1,9 @@
 ---
-Title: Kmom10
+Title: Projekt
 Description: Report kmom10 page
+template: kmom
 # hidden: true
 ---
 
-Kmom10
+Projekt
 ==================

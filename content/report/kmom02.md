@@ -1,6 +1,7 @@
 ---
 Title: Kmom02
 Description: Report kmom02 page
+template: kmom
 # hidden: true
 ---
 

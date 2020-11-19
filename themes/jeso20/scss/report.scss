@@ -1,0 +1,89 @@
+.landingpage {
+    display: grid;
+    grid-template-columns: 31% auto 31%;
+    grid-gap: 2em;
+    padding: 0 2em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    text-align: center;
+}
+
+.kmom-box {
+    grid-column: span 1;
+    border: 1px solid $text-color;
+    border-radius: 10px 10px 0 0;
+    background-color: $header-color;
+
+    h3 {
+        background-color: $link-color;
+        border-radius: 10px 10px 0 0;
+        padding: 1em;
+    }
+
+    p {
+        color: $link-color-visited;
+        padding: 1em;
+    }
+
+    i {
+        color: $link-color-visited;
+    }
+}
+
+.kmom-box:hover {
+    h3 {
+        background-color: $link-color-visited;
+    }
+
+    p,
+    i {
+        color: $link-color;
+    }
+}
+
+.kmom-link {
+    display: grid;
+    grid-template-columns: 40% 40% auto;
+    grid-template-rows: 6em 6em auto;
+
+    h3 {
+        grid-column: span 3;
+        text-align: center;
+    }
+
+    p {
+        grid-column: span 2;
+        grid-row: span 2;
+        text-align: center;
+    }
+
+    i {
+        grid-column: 3;
+        grid-row: 3;
+        font-size: 3em;
+        text-align: right;
+        padding: 0.2em;
+    }
+}
+
+.project {
+    grid-column: span 3;
+}
+
+@media (max-width: 767px) {
+    .landingpage {
+        grid-template-columns: auto;
+    }
+
+    .landingpage h1,
+    .kmom-box.project {
+        grid-column: span 1;
+    }
+
+    .kmom-link {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
