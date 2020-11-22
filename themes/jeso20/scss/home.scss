@@ -26,14 +26,10 @@
     }
 }
 
-
-
-
-
 @media (max-width: 767px) {
     .homepage {
         grid-template-columns: auto;
-        grid-template-rows: auto
+        grid-template-rows: auto;
     }
 
     .homepage h1,
