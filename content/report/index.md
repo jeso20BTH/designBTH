@@ -32,7 +32,7 @@ Redovisning
     <a href="report/kmom03">
         <div class="kmom-link">
             <h3>Kursmoment 3</h3>
-            <p>Under detta kursmoment har vi gått igenom layout för sidan närmare. Det innefattar i huvudsak flexbox och grid.</p>
+            <p>Under detta kursmoment har vi gått igenom layout för sidan närmare. Det innefattar i huvudsak flexbox och grid och då för raport-sidan samt start-sidan.</p>
             <i class="fas fa-chevron-circle-right"></i>
         </div>
     </a>
