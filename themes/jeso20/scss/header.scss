@@ -1,8 +1,8 @@
-@import 'variables';
-
-.header .container {
+.header {
     background: $header-color;
-    max-width: 100%;
+    background: linear-gradient(0deg, $header-graidient-color-one 0%, $header-graidient-color-two 95%);
+    width: 100%;
+    box-shadow: 0 2px 2px $shadow-color;
 }
 
 .title,
@@ -16,7 +16,7 @@
 
     p,
     h1 {
-        color: #a12424;
+        color: $header-footer-text-color;
     }
 
 
@@ -29,11 +29,10 @@
     height: 1.2em;
     padding: 0.85em 0.4em;
 
-
     a,
     a:hover,
     a:visited {
-        color: $link-color;
+        color: $header-footer-text-color;
     }
 
     * {
@@ -55,7 +54,8 @@
 }
 
 .nav {
-    padding: 3em 2em 0;
+    clear: both;
+    padding: 0 2em 0.5em;
     text-align: right;
 
     ul {
@@ -75,11 +75,12 @@
 .nav a,
 .nav-toggle,
 .nav a:visited {
-    color: $link-color;
+    color: $header-footer-text-color;
 }
 
 .nav .active a {
-    color: $link-color-visited;
+    color: lighten($header-footer-text-color, 5%);
+    text-shadow: 2px 2px 2px darken($shadow-color, 40%);
 }
 
 .nav a:hover,

@@ -14,29 +14,18 @@
     grid-column: span 1;
     border: 1px solid $text-color;
     border-radius: 10px 10px 0 0;
-    background-color: $header-color;
 
     h3 {
-        background-color: $link-color;
         border-radius: 10px 10px 0 0;
         padding: 1em;
     }
 
     p {
-        color: $link-color-visited;
         padding: 1em;
-    }
-
-    i {
-        color: $link-color-visited;
     }
 }
 
 .kmom-box:hover {
-    h3 {
-        background-color: $link-color-visited;
-    }
-
     p,
     i {
         color: $link-color;

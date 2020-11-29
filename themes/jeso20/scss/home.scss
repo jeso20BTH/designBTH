@@ -26,6 +26,10 @@
     }
 }
 
+.me-img img {
+    border-radius: 5%;
+}
+
 @media (max-width: 767px) {
     .homepage {
         grid-template-columns: auto;

@@ -1,20 +1,19 @@
-@import 'variables';
-
-.footer .container {
+.footer {
     background: $header-color;
+    background: linear-gradient(180deg, $header-graidient-color-one 0%, $header-graidient-color-two 95%);
     max-width: 100%;
+    box-shadow: 0 -2px 2px $shadow-color;
 }
 
 .footer {
-    background: $header-color;
     color: $header-footer-text-color;
 
     a,
     a:visited {
-        color: $link-color;
+        color: $header-footer-text-color;
     }
 
-    .footer a:hover {
+    a:hover {
         color: $link-color-hover;
     }
 
