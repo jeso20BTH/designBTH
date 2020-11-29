@@ -42,7 +42,7 @@ Redovisning
     <a href="report/kmom04">
         <div class="kmom-link">
             <h3>Kursmoment 4</h3>
-            <p>Kursmoment fyra kommer inefatta färger.</p>
+            <p>Detta kursmomment har gått in på djupet gällande färgval, färgpalleter, skuggor. Utöver det har även ett mörkt tema skapats.</p>
             <i class="fas fa-chevron-circle-right"></i>
         </div>
     </a>
