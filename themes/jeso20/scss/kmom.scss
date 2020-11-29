@@ -7,7 +7,6 @@
 
 .reportpage h1 {
     grid-column: 2;
-    text-align: center;
 }
 
 .kmom-nav {
@@ -23,10 +22,11 @@
         text-align: center;
         margin: 0.2em;
         padding: 1.2em 0.8em 0.2em;
+        color: $header-footer-text-color;
     }
 
     a:visited {
-        color: $link-color;
+        color: $header-footer-text-color;
     }
 
     a:hover {
@@ -37,6 +37,20 @@
         color: $link-color-visited !important;
         border-bottom: 2px solid $link-color-visited;
     }
+}
+
+.report-area img {
+    box-shadow: 2px 2px 2px $shadow-color;
+}
+
+.color-pallette {
+    border-spacing: 4px;
+    border-collapse: separate;
+}
+
+.color-square {
+    height: 50px;
+    width: 50px;
 }
 
 @media (max-width: 767px) {
