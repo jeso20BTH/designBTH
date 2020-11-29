@@ -1,0 +1,14 @@
+$background-color: #222;
+$header-color: #110;
+$shadow-color: #ddd8;
+$header-graidient-color-one: #111;
+$header-graidient-color-two: #100;
+$link-color: #ccc;
+$link-color-visited: lighten($link-color, 20%);
+$link-color-hover: darken($link-color, 20%);
+$text-color: #ddd;
+$header-footer-text-color: $link-color;
+$header-font-family: 'Metal Mania';
+$header-font-file: '../../shared/fonts/metal-mania-v10-latin-regular';
+$text-font-family: 'Roboto';
+$text-font-file: '../../shared/fonts/roboto-v20-latin-regular';
