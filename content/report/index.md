@@ -2,78 +2,28 @@
 Title: Redovisning
 Description: Report index page.
 Template: report
+objects:
+    - url: report/kmom01
+      header: Kursmoment 1
+      text: En genomgång av ramverk, innehåll och style. Där vi för första gången bekantat oss med pico.
+    - url: report/kmom02
+      header: Kursmoment 2
+      text: Har gått in djupare på typografi, samt bekantat oss med SASS samt nmp och node.
+    - url: report/kmom03
+      header: Kursmoment 3
+      text: Under detta kursmoment har vi gått igenom layout för sidan närmare. Det innefattar i huvudsak flexbox och grid och då för raport-sidan samt start-sidan.
+    - url: report/kmom04
+      header: Kursmoment 4
+      text: Under detta kursmoment har vi gått igenom layout för sidan närmare. Det innefattar i huvudsak flexbox och grid och då för raport-sidan samt start-sidan.
+    - url: report/kmom05
+      header: Kursmoment 5
+      text: Kursmoment fem kommer innefatta bilder.
+    - url: report/kmom06
+      header: Kursmoment 6
+      text: Kommer innefatta tillgänglighet och prestanda.
+    - url: report/kmom10
+      header: Projekt
+      text: Kmom10 är det avslutande projektet för design-kursen.
+      class: project
 # hidden: true
 ---
-
-Redovisning
-==================
-
-<div class="kmom-box">
-    <a href="report/kmom01">
-        <div class="kmom-link">
-            <h3>Kursmoment 1</h3>
-            <p>En genomgång av ramverk, innehåll och style. Där vi för första gången bekantat oss med pico.</p>
-            <i class="fas fa-chevron-circle-right"></i>
-        </div>
-    </a>
-</div>
-
-<div class="kmom-box">
-    <a href="report/kmom02">
-        <div class="kmom-link">
-            <h3>Kursmoment 2</h3>
-            <p>Har gått in djupare på typografi, samt bekantat oss med SASS samt nmp och node.</p>
-            <i class="fas fa-chevron-circle-right"></i>
-        </div>
-    </a>
-</div>
-
-<div class="kmom-box">
-    <a href="report/kmom03">
-        <div class="kmom-link">
-            <h3>Kursmoment 3</h3>
-            <p>Under detta kursmoment har vi gått igenom layout för sidan närmare. Det innefattar i huvudsak flexbox och grid och då för raport-sidan samt start-sidan.</p>
-            <i class="fas fa-chevron-circle-right"></i>
-        </div>
-    </a>
-</div>
-
-<div class="kmom-box">
-    <a href="report/kmom04">
-        <div class="kmom-link">
-            <h3>Kursmoment 4</h3>
-            <p>Detta kursmomment har gått in på djupet gällande färgval, färgpalleter, skuggor. Utöver det har även ett mörkt tema skapats.</p>
-            <i class="fas fa-chevron-circle-right"></i>
-        </div>
-    </a>
-</div>
-
-<div class="kmom-box">
-    <a href="report/kmom05">
-        <div class="kmom-link">
-            <h3>Kursmoment 5</h3>
-            <p>Kursmoment fem kommer innefatta bilder.</p>
-            <i class="fas fa-chevron-circle-right"></i>
-        </div>
-    </a>
-</div>
-
-<div class="kmom-box">
-    <a href="report/kmom06">
-        <div class="kmom-link">
-            <h3>Kursmoment 6</h3>
-            <p>Kommer innefatta tillgänglighet och prestanda.</p>
-            <i class="fas fa-chevron-circle-right"></i>
-        </div>
-    </a>
-</div>
-
-<div class="kmom-box project">
-    <a href="report/kmom10">
-        <div class="kmom-link">
-            <h3>Projekt</h3>
-            <p>Kmom10 är det avslutande projektet för kursen.</p>
-            <i class="fas fa-chevron-circle-right"></i>
-        </div>
-    </a>
-</div>

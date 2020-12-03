@@ -1,7 +1,14 @@
 ---
 Title: Färger
 Description: Analysis page for colors
-template: analysis
+template: sidebar
+menu:
+    - url: 01_colors
+      text: Färger
+    - url: 02_load
+      text: Laddtider
+    - url: 03_design_principles
+      text: Designprinciper
 # hidden: true
 ---
 
@@ -113,7 +120,7 @@ Denna sida säger mest sälj, dels så finns det produkter på första sidan med
 Analys
 -----------------------
 
-Jag tyckte det var intressant att enligt min analys var den ända likheten mellan sidorna att samtliga använde Sans-serif. Det som är intressant var att Innova och Discraft som tillsammans har mer än 50 procent av marknaden båda har sidor som skriker sälj, medan Dynamic Discs som enbart har dryga sex procent av marknaden, inte visar på sälj på samma sätt. Det kan vara en av anledningarna till att Innova och Discraft säljer mer än Dynamic Discs. Om man går in lite mer på varje företag ser man att dom två först nämnda funnits mycket längre än Dynamic Discs vilket troligen har större påverkan på marknadsandelar än sidans färger, men jag tror ändå att det kan påverka till viss del. Det var också spännande att alla valde olika vinklar gällande färg vilket gav varje sida en egen personlighet fast alla tre har samma syfte. Jag syftar då främst på valet av färgschema. 
+Jag tyckte det var intressant att enligt min analys var den ända likheten mellan sidorna att samtliga använde Sans-serif. Det som är intressant var att Innova och Discraft som tillsammans har mer än 50 procent av marknaden båda har sidor som skriker sälj, medan Dynamic Discs som enbart har dryga sex procent av marknaden, inte visar på sälj på samma sätt. Det kan vara en av anledningarna till att Innova och Discraft säljer mer än Dynamic Discs. Om man går in lite mer på varje företag ser man att dom två först nämnda funnits mycket längre än Dynamic Discs vilket troligen har större påverkan på marknadsandelar än sidans färger, men jag tror ändå att det kan påverka till viss del. Det var också spännande att alla valde olika vinklar gällande färg vilket gav varje sida en egen personlighet fast alla tre har samma syfte. Jag syftar då främst på valet av färgschema.
 
 Referenser
 -----------------------

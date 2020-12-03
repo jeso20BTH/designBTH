@@ -1,7 +1,14 @@
 ---
 Title: Designprinciper
 Description: Analysis page for design principles
-template: analysis
+template: sidebar
+menu:
+    - url: 01_colors
+      text: Färger
+    - url: 02_load
+      text: Laddtider
+    - url: 03_design_principles
+      text: Designprinciper
 # hidden: true
 ---
 

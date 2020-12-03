@@ -70,19 +70,15 @@
     </div>
     <div class="main" role="main">
         <div class="container">
-            <div class="landingpage">
-                <h1>{{ meta.title }}</h1>
-                {% for object in meta.objects %}
-                    <div class="kmom-box {{object.class}}">
-                        <a href="{{ object.url }}">
-                            <div class="kmom-link">
-                                <h3>{{ object.header }}</h3>
-                                <p> {{ object.text }}</p>
-                                <i class="fas fa-chevron-circle-right"></i>
-                            </div>
-                        </a>
-                    </div>
-                {% endfor %}
+            <div class="reportpage">
+                <div class="kmom-nav">
+                    {% for page in meta.menu %}
+                        <a {% if page.url in current_page.id %} class="active" {% endif %} href={{ page.url }}>{{ page.text }}</a>
+                    {% endfor %}
+                </div>
+                <div class="report-area">
+                    {{ content }}
+                </div>
             </div>
         </div>
     </div>
