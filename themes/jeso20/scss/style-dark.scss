@@ -22,6 +22,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'report';
 @import 'kmom';
 @import 'home';
+@import 'gallery';
 
 
 .me-img {
@@ -31,6 +32,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
         border-radius: 5%;
         box-shadow: 2px 2px 4px $shadow-color;
     }
+}
+
+.gallery-img {
+    filter: grayscale(60%);
 }
 
 .kmom-box {
