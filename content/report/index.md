@@ -17,7 +17,7 @@ objects:
       text: Under detta kursmoment har vi gått igenom layout för sidan närmare. Det innefattar i huvudsak flexbox och grid och då för raport-sidan samt start-sidan.
     - url: report/kmom05
       header: Kursmoment 5
-      text: Kursmoment fem kommer innefatta bilder.
+      text: Innehållet för detta kursmoment har varit att skapa ett galleri, jobba med bilder och video i korrekt format samt analyserat webbplatsers laddningstider.
     - url: report/kmom06
       header: Kursmoment 6
       text: Kommer innefatta tillgänglighet och prestanda.
