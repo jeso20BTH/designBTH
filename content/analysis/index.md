@@ -8,7 +8,7 @@ objects:
       text: En analys av tre sidors färger och typsnitt.
     - url: analysis/02_load
       header: Laddtider
-      text: Analys av sidors laddtider.
+      text: Analys av tre sidors laddningstider med förbättringsförslag.
     - url: analysis/03_design_principles
       header: Designprinciper
       text: Analys av sidors designprinciper.
