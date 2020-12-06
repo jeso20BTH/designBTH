@@ -9,13 +9,14 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'mixins';
 
 @import '../../shared/scss/base';
-@import '../../jeso20old/css/style';
 @import 'variables-dark';
 
 @include font($header-font-family, $header-font-file);
 @include font($text-font-family, $text-font-file);
 
+@import 'miscellaneous';
 @import 'typography';
+@import 'responsive';
 @import 'header';
 @import 'layout';
 @import 'footer';

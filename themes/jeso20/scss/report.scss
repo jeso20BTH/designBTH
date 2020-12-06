@@ -61,6 +61,20 @@
     grid-column: span 3;
 }
 
+.data-link {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .data-link {
+        display: inline;
+    }
+
+    .full-data {
+        display: none;
+    }
+}
+
 @media (max-width: 767px) {
     .landingpage {
         grid-template-columns: auto;

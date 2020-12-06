@@ -47,8 +47,15 @@ fieldset {
 
 a {
     color: $link-color;
-    text-decoration: none;
+    text-decoration: underline;
     transition: color 0.2s ease-in;
+}
+
+.header a,
+.footer a,
+.kmom-box a,
+.kmom-nav a {
+    text-decoration: none;
 }
 
 a:hover {
@@ -103,7 +110,7 @@ img {
 hr {
     border: 0.15em solid #f5f5f5;
     border-radius: 0.3em;
-    background: #f5f5f5;
+
 }
 
 abbr {

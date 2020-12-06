@@ -29,7 +29,8 @@
     flex: 1 0 auto;
 }
 
-.header, .footer {
+.header,
+.footer {
     flex: 0 0 auto;
 }
 
@@ -59,28 +60,36 @@
     .main {
         padding: 2em 0 1em;
     }
-    .title, .logo {
+
+    .title,
+    .logo {
         padding: 2em 1.5em 2em 0;
     }
+
     .logo {
         height: 8.8em;
     }
+
     .nav {
         clear: both;
         padding: 0;
     }
+
     .nav ul {
         padding-bottom: 1em;
     }
+
     .nav ul li {
         display: block;
         margin-left: 0;
         text-align: center;
     }
+
     .nav ul li a {
         display: block;
         padding: 0.5em 0;
     }
+
     .js .nav-toggle {
         display: block;
         float: right;
@@ -91,12 +100,15 @@
         text-align: center;
         cursor: pointer;
     }
+
     .js .nav-toggle>* {
         vertical-align: middle;
     }
+
     .footer p {
         padding: 1em 0;
     }
+
     .footer .social {
         padding: 0.5em 0 0.5em 1em;
     }
@@ -160,13 +172,18 @@
     .image.xsmall {
         width: 60%;
     }
+
     .image.small {
         width: 80%;
     }
-    .image.large, .image.xlarge {
+
+    .image.large,
+    .image.xlarge {
         width: 100%;
     }
-    .image.float-left, .image.float-right {
+
+    .image.float-left,
+    .image.float-right {
         float: none;
         margin: 0 auto;
     }
@@ -178,7 +195,8 @@ table {
     border-spacing: 0;
 }
 
-td, th {
+td,
+th {
     padding: 0.4em 1em;
     vertical-align: top;
 }
@@ -187,14 +205,16 @@ th {
     font-weight: bold;
     text-align: center;
     background: $header-color;
-    color: #333;
+    color: $header-footer-text-color;
 }
 
-td, th {
-    border: 1px solid #ccc;
+td,
+th {
+    border: 1px solid $text-color;
 }
 
-tr:not(:last-child) td, tr:not(:last-child) th {
+tr:not(:last-child) td,
+tr:not(:last-child) th {
     border-bottom: 0 none;
 }
 
@@ -202,15 +222,18 @@ thead tr:last-child th {
     border-bottom: 0 none;
 }
 
-td:not(:last-child), th:not(:last-child) {
+td:not(:last-child),
+th:not(:last-child) {
     border-right: 0 none;
 }
 
-tr:first-child td:first-child, tr:first-child th:first-child {
+tr:first-child td:first-child,
+tr:first-child th:first-child {
     border-top-left-radius: 0.3em;
 }
 
-tr:first-child td:last-child, tr:first-child th:last-child {
+tr:first-child td:last-child,
+tr:first-child th:last-child {
     border-top-right-radius: 0.3em;
 }
 
@@ -236,7 +259,8 @@ table thead+tbody tr:first-child td {
 
 /*** LISTS ***/
 
-ol, ul {
+ol,
+ul {
     list-style-position: outside;
     padding-left: 1.5em;
 }
@@ -298,11 +322,17 @@ blockquote {
 
 /*** FORMS ***/
 
-label, fieldset legend {
+label,
+fieldset legend {
     font-weight: bold;
 }
 
-input:not([type='checkbox']):not([type='radio']), button, select, textarea, fieldset, fieldset legend {
+input:not([type='checkbox']):not([type='radio']),
+button,
+select,
+textarea,
+fieldset,
+fieldset legend {
     border: 1px solid #ccc;
     border-radius: 0.3em;
     background: #fff;
@@ -310,23 +340,32 @@ input:not([type='checkbox']):not([type='radio']), button, select, textarea, fiel
     transition-property: border-color, background, box-shadow;
 }
 
-input:not([type='checkbox']):not([type='radio']), button, select, textarea {
+input:not([type='checkbox']):not([type='radio']),
+button,
+select,
+textarea {
     padding: 0.5em 1em;
     outline: 0 none;
     font-size: 1rem;
 }
 
-input:focus:not([type='checkbox']):not([type='radio']), button:focus, select:focus, textarea:focus {
+input:focus:not([type='checkbox']):not([type='radio']),
+button:focus,
+select:focus,
+textarea:focus {
     border-color: #2eae9b;
     box-shadow: 0 0 8px #2eae9b;
 }
 
-input:focus, button:focus, button:hover {
+input:focus,
+button:focus,
+button:hover {
     background: #f5f5f5;
     cursor: pointer;
 }
 
-textarea, select {
+textarea,
+select {
     vertical-align: bottom;
     overflow: auto;
 }
@@ -340,21 +379,34 @@ fieldset legend {
     padding: 0 0.5em;
 }
 
-fieldset label, fieldset input, fieldset button, fieldset select, fieldset textarea {
+fieldset label,
+fieldset input,
+fieldset button,
+fieldset select,
+ieldset textarea {
     margin: 0.2em 0.5em;
 }
 
-fieldset label:first-child, fieldset input:first-child, fieldset button:first-child, fieldset select:first-child, fieldset textarea:first-child {
+fieldset label:first-child,
+fieldset input:first-child,
+fieldset button:first-child,
+fieldset select:first-child,
+fieldset textarea:first-child {
     margin-left: 0;
 }
 
-fieldset label:last-child, fieldset input:last-child, fieldset button:last-child, fieldset select:last-child, fieldset textarea:last-child {
+fieldset label:last-child,
+fieldset input:last-child,
+fieldset button:last-child,
+fieldset select:last-child,
+fieldset textarea:last-child {
     margin-right: 0;
 }
 
 /* Firefox input size fix */
 
-input::-moz-focus-inner, button::-moz-focus-inner {
+input::-moz-focus-inner,
+button::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
