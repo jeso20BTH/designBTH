@@ -15,7 +15,7 @@
     border: 1px solid $text-color;
     border-radius: 10px 10px 0 0;
 
-    h3 {
+    h2 {
         border-radius: 10px 10px 0 0;
         padding: 1em;
     }
@@ -37,7 +37,7 @@
     grid-template-columns: 40% 40% auto;
     grid-template-rows: 6em 6em auto;
 
-    h3 {
+    h2 {
         grid-column: span 3;
         text-align: center;
     }

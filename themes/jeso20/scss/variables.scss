@@ -1,12 +1,13 @@
-$background-color: #e0c2f2;
+$background-color: #f1d9ff;
 $header-color: #8653a6;
 $shadow-color: #8653a688;
 $header-graidient-color-one: #925ab5;
 $header-graidient-color-two: #5d3973;
-$link-color: #8653a6;
-$link-color-visited: lighten($link-color, 20%);
+$link-color: #6e428a;
+$text-color: #6e428a;
+$link-color-visited: darken($link-color, 30%);
 $link-color-hover: darken($link-color, 20%);
-$text-color: #8653a6;
+
 $header-footer-text-color: #e0c2f2;
 $header-font-family: 'Metal Mania';
 $header-font-file: '../../shared/fonts/metal-mania-v10-latin-regular';

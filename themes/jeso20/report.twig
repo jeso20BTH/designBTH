@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="sv" class="no-js">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,13 +31,13 @@
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <div class="header" role="banner">
         <div class="container">
-            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
             </a>
             {% if pages["_meta"].meta.logo %}
-                <div class="logo" aria-hidden="true">
-                    <a href="{{ "index"|link }}">
+                <div class="logo">
+                    <a href="{{ "index"|link }}" aria-label="home">
                         <i class="{{ pages["_meta"].meta.logo}}"></i>
                     </a>
                 </div>
@@ -53,7 +53,7 @@
                     <ul>
                         {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                             <li{% if page.id == current_page.id %} class="active"{% endif %}>
-                                <a href="{{ page.url }}">
+                                <a href="{{ page.url }}" {% if page.meta.icon %} aria-label="{{page.meta.title}}"{% endif %}>
                                     {% if page.meta.icon %}
                                         <i class="{{ page.meta.icon }}"></i>
                                     {% else %}
@@ -76,7 +76,7 @@
                     <div class="kmom-box {{object.class}}">
                         <a href="{{ object.url }}">
                             <div class="kmom-link">
-                                <h3>{{ object.header }}</h3>
+                                <h2>{{ object.header }}</h2>
                                 <p> {{ object.text }}</p>
                                 <i class="fas fa-chevron-circle-right"></i>
                             </div>

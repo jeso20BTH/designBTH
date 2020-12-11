@@ -28,5 +28,5 @@ Sida om mig
     </p>
 </div>
 <div class="me-img">
-    <img src="assets/img/me.jpg">
+    <img src="assets/img/me.jpg" alt="Jag">
 </div>

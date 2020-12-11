@@ -33,7 +33,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     border: 1px solid $text-color;
     background-color: lighten($background-color, 20%);
 
-    h3 {
+    h2 {
         background: $header-color;
         background: linear-gradient(0deg, $header-graidient-color-one 0%, $header-graidient-color-two 99%);
         color: $header-footer-text-color;
