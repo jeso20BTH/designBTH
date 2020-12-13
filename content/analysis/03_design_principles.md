@@ -115,9 +115,10 @@ Den andra delen jag kommer uppdatera är omsidan, den känns tråkig och håller
 Referenser
 -----------------------
 
-[Bo burnham](http://www.boburnham.com/)
-[Russel Howard](https://www.russell-howard.co.uk/)
-[Jack Whitehall](https://www.jackwhitehall.com/)
+[Bo burnham](http://www.boburnham.com/)  
+[Russel Howard](https://www.russell-howard.co.uk/)  
+[Jack Whitehall](https://www.jackwhitehall.com/)  
+[Design elements and principles](https://www.canva.com/learn/design-elements-principles/)
 
 Övrigt
 -----------------------

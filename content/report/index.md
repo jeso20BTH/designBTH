@@ -20,7 +20,7 @@ objects:
       text: Innehållet för detta kursmoment har varit att skapa ett galleri, jobba med bilder och video i korrekt format samt analyserat webbplatsers laddningstider.
     - url: report/kmom06
       header: Kursmoment 6
-      text: Kommer innefatta tillgänglighet och prestanda.
+      text: Kursmoment 6 innefarar tillgänglighet och designprinciper. Under detta kursmoment har en analys av sidors designprinciper gjort, portfolion har även tillgänglighetsanpassats.
     - url: report/kmom10
       header: Projekt
       text: Kmom10 är det avslutande projektet för design-kursen.
