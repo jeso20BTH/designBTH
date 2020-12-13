@@ -1,6 +1,6 @@
 ---
 Logo: fab fa-jedi-order
-Tagline: Death to all but metal!
+Tagline: Webbprogramerare under utveckling
 Social:
     - title: Github repo.
       url: https://github.com/jeso20BTH/designBTH

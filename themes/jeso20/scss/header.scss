@@ -19,9 +19,14 @@
         color: $header-footer-text-color;
     }
 
+    h1 {
+        font-size: 2.5em;
+    }
+
 
     p {
         font-style: italic;
+        font-size: 1.6em;
     }
 }
 
@@ -46,7 +51,7 @@
 }
 
 .logo+.title h1 {
-    margin: 0.8rem 0;
+    margin: 0;
 }
 
 .logo+.title.tagline h1 {

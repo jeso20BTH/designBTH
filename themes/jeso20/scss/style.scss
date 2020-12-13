@@ -24,8 +24,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'kmom';
 @import 'home';
 @import 'gallery';
+@import 'about';
 
-.me-img img {
+.me-img1 img,
+.me-img2 img {
     box-shadow: 2px 2px 4px $shadow-color;
 }
 
@@ -42,5 +44,13 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     p,
     i {
         color: $header-color;
+    }
+}
+
+.box {
+    background-color: lighten($background-color, 20%);
+
+    h3 {
+        color: $header-footer-text-color;
     }
 }

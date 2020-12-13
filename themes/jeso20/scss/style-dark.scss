@@ -24,9 +24,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'kmom';
 @import 'home';
 @import 'gallery';
+@import 'about';
 
-
-.me-img {
+.me-img1,
+.me-img2 {
     filter: grayscale(70%);
 
     img {
@@ -55,4 +56,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     i {
         color: $link-color-visited;
     }
+}
+
+.box {
+    background-color: darken($background-color, 2%);
 }
