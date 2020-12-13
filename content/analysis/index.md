@@ -11,6 +11,6 @@ objects:
       text: Analys av tre sidors laddningstider med förbättringsförslag.
     - url: analysis/03_design_principles
       header: Designprinciper
-      text: Analys av sidors designprinciper.
+      text: Analys av tre personsidor och mitt eget portfolios designprinciper.
 # hidden: true
 ---
