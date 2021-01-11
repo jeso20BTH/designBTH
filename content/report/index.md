@@ -23,7 +23,7 @@ objects:
       text: Kursmoment 6 innefarar tillgänglighet och designprinciper. Under detta kursmoment har en analys av sidors designprinciper gjort, portfolion har även tillgänglighetsanpassats.
     - url: report/kmom10
       header: Projekt
-      text: Kmom10 är det avslutande projektet för design-kursen.
+      text: Kmom10 är det avslutande projektet för design-kursen. För projektet har en webbplats skapats åt fotografen Art Ist. Webbplatsen innefattar en startsida, en om-sida och ett galleri. Det finns även ett alternativt tema. Utöver webbplatsen har två analyser gjorts, en för att hitta trender inom en typ av webbplatser, i detta fall fotografers. Den andra analysen är gjord gällande färger och typsnitt på projektssidan.
       class: project
 # hidden: true
 ---
