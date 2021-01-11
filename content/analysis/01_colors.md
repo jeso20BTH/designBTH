@@ -9,6 +9,10 @@ menu:
       text: Laddtider
     - url: 03_design_principles
       text: Designprinciper
+    - url: 10_webbplatsdesign
+      text: Webbplatsdesign
+    - url: 11_design-och-webbplatser
+      text: Projekt - Färger
 # hidden: true
 ---
 
